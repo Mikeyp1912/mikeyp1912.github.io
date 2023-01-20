@@ -76,8 +76,6 @@
     }
     function showRemaining (){
     now = new Date();
- 
-   
     if(now.getDay() == 0 ){
       d = 6
     }
@@ -94,8 +92,8 @@
     left_seconds.innerHTML = seconds + "<br> <span class=\"small\">secs</span>";
     }
 
-timer = setInterval (showRemaining, 1000) 
-CountDownTimer() ;
+    timer = setInterval (showRemaining, 1000) 
+    CountDownTimer() ;
 </script>
 </body>
 </html>
