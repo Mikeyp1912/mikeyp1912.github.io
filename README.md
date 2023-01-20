@@ -1,4 +1,3 @@
-# mikeyp1912.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,31 +47,23 @@
     </style>
 </head>
 <body>
-    
     <div id="counter">
-   
     <div>
         <h2 class="box" id="days"></h2>
         <h2 class="box" id="hours"></h2>
         <h2 class="box" id="minutes"></h2>
         <h2 class="box" id="seconds"></h2>
-
         <h3>
             Left in <br>This Week
         </h3>
     </div>
-       
     </div>
-
-
-
 <script>
     function CountDownTimer  () {
     left_days = document.getElementById("days");
     left_hours = document.getElementById("hours");
     left_minutes = document.getElementById("minutes");
     left_seconds = document.getElementById("seconds");
- 
     }
     function showRemaining (){
     now = new Date();
@@ -91,7 +82,6 @@
     left_minutes.innerHTML = minutes + "<br> <span class=\"small\">mins</span>";
     left_seconds.innerHTML = seconds + "<br> <span class=\"small\">secs</span>";
     }
-
     timer = setInterval (showRemaining, 1000) 
     CountDownTimer() ;
 </script>
