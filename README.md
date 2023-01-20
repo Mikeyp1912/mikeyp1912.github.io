@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Notion Widgets</h1>
-    <h2 href="./Weekly-Countdown.html">Weekly Countdown</h2>
-    <h2 href="https://mikeyp1912.github.io/Countdown.html">Countdown</h2>
-    <h2 href="https://mikeyp1912.github.io/Calender.html">Calender</h2>
+    <p href="https://mikeyp1912.github.io/Weekly-Countdown.html">Weekly Countdown</p>
+    <p href="https://mikeyp1912.github.io/Countdown.html">Countdown</p>
+    <p href="https://mikeyp1912.github.io/Calender.html">Calender</p>
 </body>
 </html>
